@@ -1,0 +1,396 @@
+@media screen and (min-width: 768px) {
+
+    /*-------header----*/
+    .logo img {
+        width: 180px;
+        padding: 5%;
+        margin-left: 5px;
+    }
+
+    header {
+        background-color: #f2f2f2;
+        display: flex;
+        border-bottom: 5px solid #f88f06;
+        align-items: center;
+    }
+
+    header div {
+        display: flex;
+    }
+
+    .img-header {
+        margin-top: 8px;
+        margin-left: 10px;
+        position: relative;
+        display: flex;
+        justify-content: right;
+        padding: 30px;
+    }
+
+    .img-header img {
+        width: 800px;
+    }
+
+    .contato-fone {
+        display: flex;
+        margin-left: 20px;
+        font-size: 0.53rem;
+        font-weight: 600;
+        line-height: 1rem;
+    }
+
+    .contato-fone img {
+        width: 50px;
+        height: 40px;
+    }
+
+    .contato-fone p {
+        width: 120px;
+        line-height: 20px;
+        text-decoration: none;
+        color: #666666;
+    }
+
+    .contato-mail {
+        display: flex;
+        padding: 8px 15px;
+        margin-left: 20px;
+        font-size: 0.5rem;
+        font-weight: 600;
+        line-height: 1rem;
+    }
+
+    .contato-mail img {
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*--------Home-------*/
+    .banner-home {
+        position: relative;
+        margin: 0;
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-content: center;
+        padding-top: 50PX 50PX;
+        display: flex;
+        text-align: center;
+    }
+
+    .banner-home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.75;
+    }
+
+    .banner-home h1 {
+        display: flex;
+        background-color: white;
+        margin: 50px 30px 30px 30px;
+        padding: 2%;
+        color: #003840;
+        width: 80%;
+        height: 200px;
+        font-size: 2.2rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+        opacity: 0.75;
+        box-shadow: 10px 10px #f88f06;
+    }
+
+    /*--------Link Whats------*/
+    .whats {
+        margin-top: -120px;
+        position: fixed;
+        text-align: right;
+        right: 50px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .whats img {
+        width: 110px;
+    }
+
+    /*----quem somos*/
+
+    #linha-horizontal-quem {
+        width: 600px;
+        margin: 50px 0px 50px 50px;
+    }
+
+    .sobre {
+        display: flex;
+        text-align: center;
+    }
+
+    #quem-somos {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 275px;
+        margin-bottom: 120px;
+        margin-top: 50px;
+    }
+
+    .sobre img {
+        position: relative;
+        width: 650px;
+        height: 500px;
+        padding: 3%;
+    }
+
+    .quem-somos h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-decoration: underline;
+        text-decoration-color: #f88f06;
+    }
+
+    .quem-somos p {
+        margin-top: 0;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    /*----------- Objetivos---------- */
+
+    .container-objetivo {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .objetivos {
+        box-sizing: border-box;
+        border: 0.2px solid #f2f2f2;
+        width: 500px;
+        height: 310px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    /*---Servicos---*/
+    #servicos.container {
+        padding: 5px;
+    }
+
+    #servicos h1 {
+        font-size: 1.7rem;
+    }
+
+    .title-servicos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .container-servicos {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin-bottom: 5px;
+        color: #666666;
+    }
+
+    .container-servicos img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .text-serv-resid,
+    .text-serv-pred,
+    .text-serv-com {
+        padding: 5%;
+        text-align: center;
+        display: flex;
+    }
+
+    .text-servicos p {
+        margin-top: 10px;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .text-servicos h2 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .text-serv-pred {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+    #linha-horizontal {
+        margin: 10px;
+        width: 80px;
+        border: 3px solid #f88f06;
+    }
+}
+
+
+@media (max-width: 920px) {
+
+    nav .social {
+        display: flex;
+        position: relative;
+        width: 980px;
+        height: 70px;
+    }
+
+    nav .social img {
+        width: 100px;
+        height: 60px;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #f88f06;
+        margin-left: 4px;
+    }
+
+    #projetos {
+        width: 100%;
+        display: flex;
+        position: relative;
+
+    }
+
+    .projetos-realizados {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .contato-fone {
+        display: flex;
+        margin-left: 280px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1rem;
+    }
+
+    .contato-fone img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .contato-fone p {
+        padding: 1px;
+        width: 180px;
+        line-height: 25px;
+    }
+
+    .contato-fone a {
+        text-decoration: none;
+        color: #666666;
+    }
+
+
+    .contato-mail {
+        display: flex;
+        padding: 8px 15px;
+        margin-left: 100px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1rem;
+        color: #666666;
+    }
+
+    .contato-mail img {
+        margin-right: 20px;
+        width: 58px;
+        height: 58px;
+    }
+
+    .banner-home h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.9;
+        text-align: center;
+        padding: 1%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .sobre img {
+        width: 100%;
+        height: 470px;
+        margin-top: 20px;
+    }
+
+    .quem-somos {
+        padding: 4%;
+
+    }
+
+    .quem-somos h1 {
+        font-size: 1.6rem;
+        font-weight: 900;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+
+    .quem-somos p {
+        padding: 20px;
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 2.5rem;
+    }
+
+    .objetivos {
+        margin-top: 50px;
+        padding: 10px;
+        width: 500px;
+        height: 260px;
+        font-size: 2rem;
+    }
+
+.objetivos img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+
+    /*----Servicos---*/
+
+    .container-servicos img {
+        width: 450px;
+        height: 350px;
+    }
+
+    .text-servicos h2 {
+        font-size: 1.6rem;
+        font-weight: 550;
+        color: #003840;
+        margin-bottom: 60px;
+
+    }
+
+    .text-servicos p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 2%;
+    }
+
+
+}
